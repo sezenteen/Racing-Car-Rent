@@ -1,4 +1,4 @@
-package com.example.racingcarrent.model;
+package com.example.racingcarrent.model.entity;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -21,4 +21,5 @@ public abstract class BaseEntity {
     public void setId(Long id) {
         this.id = id;
     }
+
 }
